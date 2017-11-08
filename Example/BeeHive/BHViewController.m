@@ -12,6 +12,7 @@
 #import "BHService.h"
 
 @BeeHiveService(HomeServiceProtocol,BHViewController)
+
 @interface BHViewController ()<HomeServiceProtocol>
 
 @property(nonatomic,strong) NSMutableArray *registerViewControllers;
